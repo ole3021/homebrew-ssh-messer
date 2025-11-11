@@ -1,8 +1,8 @@
 class SshMesser < Formula
   desc "SSH tunnel proxy manager with TUI for multi-hop connections."
   homepage "https://github.com/ole3021/ssh-messer"
-  url "https://github.com/ole3021/ssh-messer/archive/refs/tags/v0.2.6.tar.gz"
-  sha256 "1ac08bb439a099689e025f9feca54b1ed0ca9ee9d43e92ddcd641038da131bda"  # 需要计算
+  url "https://github.com/ole3021/ssh-messer/archive/refs/tags/v0.2.7.tar.gz"
+  sha256 "6953379e6aec92788d25e4bad8be21a563144ff23b2173b8af6a0d377781e761"  # 需要计算
   license "MIT"
   
   depends_on "go" => :build
